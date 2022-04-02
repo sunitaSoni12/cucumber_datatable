@@ -1,0 +1,9 @@
+// 1. git clone is a command used to create new git repository
+//2. git add . command is used to stage the changes 
+//3. Cucumber scenario outline is used to cover cucumber scenario with different set of test data 
+//4. raw(), rows() and hashes() are different method to access data from different JS cucumber data table
+//5. BeforeHook () can be defined to be executed as part of all scenarios in a feature file 
+//6. 
+//7. git log 
+//8. git push - to publish local changes to remote repository
+

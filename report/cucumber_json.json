@@ -1,0 +1,171 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "part-c-scenario;correct-non-zero-number-of-books-found-by-author",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "correct non-zero number of books found by author",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "author"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The devile in the white city",
+                      "Eric Larson"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The lion, the witch and the wardrobe",
+                      "C.S. Lewis"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "In the garden of beast",
+                      "Eric Larson"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have the following books in the store",
+            "match": {
+              "location": "features\\support\\step_definations\\partC.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I search book by author 'Eric Larson'",
+            "match": {
+              "location": "features\\support\\step_definations\\partC.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I find 2 books",
+            "match": {
+              "location": "features\\support\\step_definations\\partC.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "part-c-scenario;correct-non-zero-number-of-books-found-by-author",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "correct non-zero number of books found by author",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "author"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The devile in the white city",
+                      "Eric Larson"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "The lion, the witch and the wardrobe",
+                      "C.S. Lewis"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "In the garden of beast",
+                      "Eric Larson"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have the following books in the store",
+            "match": {
+              "location": "features\\support\\step_definations\\partC.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I search book by author 'C.S. Lewis'",
+            "match": {
+              "location": "features\\support\\step_definations\\partC.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I find 1 books",
+            "match": {
+              "location": "features\\support\\step_definations\\partC.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "part-c-scenario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Part C scenario",
+    "tags": [],
+    "uri": "features\\author.feature"
+  }
+]
